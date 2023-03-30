@@ -7,12 +7,15 @@ import '../../controllers/product_controller.dart';
 import '../widgets/list_item_selector.dart';
 import '../widgets/product_grid_view.dart';
 
+
 enum AppbarActionType {leading , trailing}
 
 final ProductController controller = Get.put(ProductController());
 
 class ProductListScreen extends StatelessWidget {
   const ProductListScreen({Key? key}) : super(key: key);
+
+  get images => null;
 
   Widget appBarActionButton(AppbarActionType type) {
     IconData icon = Icons.search;

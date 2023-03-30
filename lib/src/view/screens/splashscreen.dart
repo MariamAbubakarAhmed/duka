@@ -17,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
 //implementing splashscreen
    @override
    void initState() {
-    Timer(Duration(seconds: 3), () => Get.to(() => HomeScreen()));
+    Timer(Duration(seconds: 5), () => Get.to(() => HomeScreen()));
      super.initState();
    }
 
@@ -30,7 +30,7 @@ class _SplashScreenState extends State<SplashScreen> {
         height: Get.height,
         decoration: BoxDecoration(
           image: DecorationImage(
-              image: AssetImage("ecommerce.jpg"),
+              image: AssetImage("antique-furniture.png"),
               fit: BoxFit.cover,
               colorFilter: ColorFilter.mode(
                   Colors.black.withOpacity(0.5), BlendMode.darken)),

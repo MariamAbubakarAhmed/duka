@@ -9,18 +9,18 @@ class ProfileScreen extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Expanded(child: Image.asset('assets/images/profile_pic.png')),
+          Expanded(child: Image.asset('assets/images/user.png')),
           const Text(
-            "Hello Sina!",
+            "User Name",
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset('assets/images/ecommerce.jpg', width: 60),
+              Image.asset('assets/images/contact-us.webp', width: 60),
               const SizedBox(width: 10),
               const Text(
-                "https://github.com/SinaSys",
+                "Contact Us",
                 style: TextStyle(fontSize: 20),
               )
             ],

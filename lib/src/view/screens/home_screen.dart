@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:animations/animations.dart';
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:pwanistore/core/app_data.dart';
+import 'package:pwanistore/src/view/screens/shop_screen.dart';
 
 
 import '../widgets/page_wrapper.dart';
@@ -18,7 +19,8 @@ class HomeScreen extends StatefulWidget {
     ProductListScreen(),
     FavoriteScreen(),
     CartScreen(),
-    ProfileScreen()
+    ProfileScreen(),
+    ShopScreen()
   ];
 
   @override

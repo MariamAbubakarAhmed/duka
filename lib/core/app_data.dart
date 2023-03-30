@@ -173,6 +173,12 @@ class AppData {
       Colors.grey,
     ),
     BottomNavyBarItem(
+      "Shops",
+      const Icon(Icons.shop_2),
+      const Color(0xFFEC6813),
+      Colors.grey,
+    ),
+    BottomNavyBarItem(
       "Profile",
       const Icon(Icons.person),
       const Color(0xFFEC6813),
