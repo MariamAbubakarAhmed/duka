@@ -124,12 +124,10 @@ class AppData {
       false,
       FontAwesomeIcons.table,
     ),
-    ProductCategory(ProductType.Jewellery, false, Icons.grade),
     ProductCategory(
-      ProductType.Jewellery,
-      false,
-      FontAwesomeIcons.table,
-    ),
+        ProductType.Jewellery,
+        false, Icons.grade),
+
     ProductCategory(
       ProductType.Clothes,
       false,
@@ -173,17 +171,18 @@ class AppData {
       Colors.grey,
     ),
     BottomNavyBarItem(
-      "Shops",
-      const Icon(Icons.shop_2),
-      const Color(0xFFEC6813),
-      Colors.grey,
-    ),
-    BottomNavyBarItem(
       "Profile",
       const Icon(Icons.person),
       const Color(0xFFEC6813),
       Colors.grey,
     ),
+    BottomNavyBarItem(
+      "Shops",
+      const Icon(Icons.shop_2),
+      const Color(0xFFEC6813),
+      Colors.grey,
+    ),
+
   ];
 
   static List<RecommendedProduct> recommendedProducts = [
