@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "677572187045",
+    "project_id": "lamuzon-850f7",
+    "storage_bucket": "lamuzon-850f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677572187045:android:3db5c61ac8d62e0de30e4c",
+        "android_client_info": {
+          "package_name": "com.example.lamuzon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677572187045-nidblutdehmijjcosr8i7dsf843ioofk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiiYXhZayVaEVl1_n1gKxg9gWAxDJU6fU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677572187045-nidblutdehmijjcosr8i7dsf843ioofk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677572187045:android:a6ccb90fcc043c5ee30e4c",
+        "android_client_info": {
+          "package_name": "com.example.pwanistore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677572187045-nidblutdehmijjcosr8i7dsf843ioofk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiiYXhZayVaEVl1_n1gKxg9gWAxDJU6fU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677572187045-nidblutdehmijjcosr8i7dsf843ioofk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
