@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pwanistore/src/view/widgets/shop1.dart';
 import 'package:pwanistore/src/view/widgets/intro_card.dart';
+import 'package:pwanistore/src/view/screens/product_list_screen.dart';
 class ShopScreen extends StatelessWidget {
   const ShopScreen({Key? key}) : super(key: key);
 
@@ -32,7 +33,7 @@ class ShopScreen extends StatelessWidget {
     Navigator.of(context).push(MaterialPageRoute(
     builder: (context) => const Shop1()));
     },
-    img: 'assets/images/shop 2.jpg',
+    img: 'assets/images/shop2.jpg',
     cardTitle: "Shop 2"),
       SizedBox(
         height: 25,
@@ -43,7 +44,7 @@ class ShopScreen extends StatelessWidget {
             Navigator.of(context).push(MaterialPageRoute(
                 builder: (context) => const Shop1()));
           },
-          img: 'assets/images/shop 3.jpg',
+          img: 'assets/images/shop3.jpg',
           cardTitle: "Shop 3"),
       SizedBox(
         height: 25,
@@ -55,7 +56,7 @@ class ShopScreen extends StatelessWidget {
             Navigator.of(context).push(MaterialPageRoute(
                 builder: (context) => const Shop1()));
           },
-          img: 'assets/images/shop 4.jpg',
+          img: 'assets/images/shop4.jpg',
           cardTitle: "Shop 4"),
       SizedBox(
         height: 25,
